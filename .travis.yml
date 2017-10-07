@@ -1,3 +1,10 @@
 language: ruby
 rvm:
- - 2.2
+- 2.2
+deploy:
+  provider: heroku
+  api_key:
+    secure: KUni6C9Ipxo1osUCqLVIa3MDuH50jnA4FQpIlO2Uzo4ru+66qlBGV4Ka/ipNasFxAU0KId0v26RzgA2fz5In8tHqavI2J6dobHHGUUcdyHeLb9CuL2vNXINxDlUBuIE9v4ZEjkIXDWt9c68nTF5ktLfiV8Gvdp0/R+KGuGzudO5Vmz5q0clBW9ikGpUd5PYK4wk6bPfruqPkV1eAYmoeHyjhzB9RZOa8E1z3Zr6arRNi0yDe+Mu4Zs9DZBqps94w36fh5pSAY+Dt93LTu3F6jGsTxKwbDA7VzAX7QZbYz4W7x7lxHkBfcCnlvLkF4ftffF+lxWcHDLXW9pm/+9TNUbBS+20hbWnwKhMcjdoKn2qgnWZyn5uMmn+VZPmfVd3e9l5bIF9w8TEiMZFysllI7QbFhBbNNGgDFsEUIZ9Qq3cST4GyF1oLbuLKoayHaj+MxYH3fkb1k9gxfsPNMTbZFE6/SHEkaxsBJSBvsvZ9WtiN8tdxXk4n2Chsm06Zppo3CtggRbrBL6+atVEjA+GtIEDxMWfBK8siRN3elctmJ30aCTiu4EZv846tY5u9cMcgqqpH0LAog91Yf6g8aAzHbMaX34cvdm14lIbFW4Z/MJexWQ5zpnH4bYeXRGQEl0Kt+BZCj9HQ9NDlcA1zEju1M3QNLG9JcUMRxdoJtFLQ3y4=
+  app: tdlpa2
+  on:
+    repo: claude25/Project
