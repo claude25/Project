@@ -8,3 +8,4 @@ deploy:
   app: tdlpa2
   on:
     repo: claude25/Project
+  run: "rake db:migrate"
